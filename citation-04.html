@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<STYle>
+		body {font-family: Arial, Helvetica, sans-serif;
+		font-size: 4vw;
+	font-weight: 200;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+		}
+
+
+
+	p {
+		outline: 2px solid pink;
+	}
+	
+
+	/* mise en page glogale */
+	body{
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	/* flex sur le parents */
+	div {
+		display: flex;
+		gap: 1rem;
+		
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+	 }
+	 /* flex 1 sur les enfants = colonne équitable */
+	p {
+		/* flex: 1; */
+		width: 120px;
+	}
+
+
+body{
+	background:linear-gradient(#580a0a);
+	color: aliceblue;
+}
+
+
+
+	</STYle>
+</head>
+<body>
+	<div>
+		<p>Just because it’s simple doesn’t mean it makes sense.</p>
+		<p>— Morgan Ashley</p>
+		
+	</div>
+</body>
+</html>

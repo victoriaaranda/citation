@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<STYle>
+		body {font-family: system-ui;}
+			
+	div{
+		outline: 2px solid blue;
+		padding: 1rem;
+	}
+	p {
+		outline: 2px solid pink;
+	}
+	
+	/* flex sur le parentd */
+	div {
+		display: flex;
+		gap: 1rem;
+		
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	 }
+	 /* flex 1 sur les enfants = colonne équitable */
+p {
+	/* flex: 1; */
+	width: 120px;
+}
+
+
+	</STYle>
+</head>
+<body>
+	<div>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto explicabo commodi molestias incidunt nesciunt natus ipsam labore quo maxime quis doloremque perspiciatis veritatis reprehenderit officiis, cumque ipsum. Vel, necessitatibus voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus sequi, vitae sapiente dolores, tempore dolorum nesciunt illo atque, unde autem accusamus distinctio aliquam! Possimus deserunt natus dolores quo atque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus sequi, vitae sapiente dolores, tempore dolorum nesciunt illo atque, unde autem accusamus distinctio aliquam! Possimus deserunt natus dolores quo atque?</p>
+		<p>hello</p>
+		
+	</div>
+</body>
+</html>
